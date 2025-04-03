@@ -1,8 +1,6 @@
-# proxy-guided-clustering
+# The Density Awakens: GBR-Enhanced Clustering
 
 Proxy-Guided Clustering: Enhancing K-Means with Learned Density-Aware Augmentations
-
-# Proxy-Guided Clustering using Gradient Boosted Trees
 
 A novel density-aware clustering pipeline that uses a learned **proxy signal** to enhance the quality of KMeans segmentation. This approach combines **localized LOF**, **Gradient Boosted Regression**, and **feature-space augmentation** to improve cluster coherence and separation — especially in high-dimensional, mixed or noisy datasets.
 
@@ -26,7 +24,7 @@ Traditional clustering algorithms like KMeans are sensitive to scale, outliers, 
 
 ---
 
-## Key Contributions
+## Breakdown
 
 ✅ **Proxy Learning with GBDTs:**  
 KMeans enhanced by density-predicted signals, simulating behavior of density-aware models like DBSCAN.
@@ -72,13 +70,7 @@ Also includes:
 
 ---
 
-**Methodology:**
-
-<img width="375" alt="Screenshot 2025-04-03 at 07 38 23" src="https://github.com/user-attachments/assets/95af3949-16bb-4f12-827c-00b3fe7146af" />
-
----
-
-**Plots:**
+**Overall Results:**
    
 ![image](https://github.com/user-attachments/assets/68684de5-8e47-433d-8869-fcf7bb20f275)
 
