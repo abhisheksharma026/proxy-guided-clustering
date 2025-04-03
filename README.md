@@ -30,12 +30,26 @@ Traditional clustering algorithms like KMeans are sensitive to scale, outliers, 
 
 ✅ **Proxy Learning with GBDTs:**  
 KMeans enhanced by density-predicted signals, simulating behavior of density-aware models like DBSCAN.
+Train GBR to regress the LOF-derived "density score" using original features.
+The regressor now learns a mapping from raw features to density, approximating local structure.
+
+KMeans now clusters based on:
+- Original feature geometry
+- Learned density structure
 
 ✅ **Region-wise Normalized LOF:**  
 Improves robustness and interpretability by adapting LOF to local structures.
+LOF gives us a way to estimate how central/dense a point is in its neighborhood.
+But LOF is non-differentiable, non-parametric, and hard to scale for large datasets.
+Local normalization of LOF across KMeans-defined regions creates a smoothed, interpretable proxy for "density score".
 
 ✅ **Hybrid Evaluation with Gower Distance:**  
 Gower distance adds cohesion interpretability beyond geometric metrics.
+
+GBR bridges the gap between:
+- Unsupervised structure (via LOF)
+- Supervised function approximation (via regression)
+- And density-aware clustering (via augmented KMeans)
 
 ✅ **Early-Stopped Regressor:**  
 Optimized GBR via validation-based early stopping to prevent proxy overfitting.
