@@ -1,4 +1,4 @@
-# The Density Awakens: GBR-Enhanced Clustering
+# The Density Awakens: Boosting-Enhanced Clustering
 
 Proxy-Guided Clustering: Enhancing K-Means with Learned Density-Aware Augmentations
 
