@@ -78,8 +78,17 @@ Also includes:
    
 ![image](https://github.com/user-attachments/assets/68684de5-8e47-433d-8869-fcf7bb20f275)
 
+---
+If you use this work, please cite it as: 
 
-
-
+```
+@misc{abhishek_sharma_2024_boosting_enhanced_density,
+author = {Abhishek Sharma},
+title = {The Density Awakens: Boosting-Enhanced Clustering},
+year = {2024},
+publisher = {Zenodo},
+doi = {10.5281/zenodo.15129300},
+url = {https://doi.org/10.5281/zenodo.15129300}
+```
 
 
