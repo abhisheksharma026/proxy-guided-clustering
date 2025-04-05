@@ -82,13 +82,13 @@ Also includes:
 If you use this work, please cite it as: 
 
 ```
-@misc{abhishek_sharma_2024_boosting_enhanced_density,
+@misc{abhishek_sharma_2025_boosting_enhanced_density,
 author = {Abhishek Sharma},
-title = {The Density Awakens: Boosting-Enhanced Clustering},
-year = {2024},
+title = {The Density Awakens: Boosting-Enhanced Clustering (v2.0.0)},
+year = {2025},
 publisher = {Zenodo},
-doi = {10.5281/zenodo.15129300},
-url = {https://doi.org/10.5281/zenodo.15129300}
+doi = {10.5281/zenodo.15129301},
+url = {https://doi.org/10.5281/zenodo.15129301}
 ```
 
 
