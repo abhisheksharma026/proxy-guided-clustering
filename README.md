@@ -82,7 +82,7 @@ Also includes:
 If you use this work, please cite it as: 
 
 ```
-@misc{abhishek_sharma_2025_boosting_enhanced_density,
+@misc{abhishek_sharma_2025_boosting_enhanced_clustering,
 author = {Abhishek Sharma},
 title = {The Density Awakens: Boosting-Enhanced Clustering (v2.0.0)},
 year = {2025},
